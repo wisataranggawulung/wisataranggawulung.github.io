@@ -1,6 +1,15 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import logo_institusi from "../../assets/images/logo_institusi.png";
+</script>
 <template>
   <!-- Footer Section -->
+  <div class="mx-auto p-6 flex justify-center items-center">
+    <img
+      :src="logo_institusi"
+      alt="Logo Institusi"
+      class="w-72 md:w-140 h-auto"
+    />
+  </div>
   <footer
     class="bg-[#0b2611] text-white py-12 px-6 border-t border-white/10 mx-0"
   >
