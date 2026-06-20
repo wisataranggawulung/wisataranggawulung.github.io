@@ -43,7 +43,7 @@ onUnmounted(() => {
       <div class="flex items-center gap-2">
         <img :src="logo" alt="Logo" class="h-10 w-auto" />
         <span
-          :class="isScrolled ? 'text-yellow-600' : 'text-white'"
+          :class="isScrolled || isMenuOpen ? 'text-yellow-600' : 'text-white'"
           class="text-sm sm:text-base md:text-xl font-google-dynapuff"
           >Wisata Ranggawulung</span
         >
@@ -105,7 +105,7 @@ onUnmounted(() => {
     <!-- Mobile Menu Overlay -->
     <div
       v-if="isMenuOpen"
-      class="md:hidden absolute top-full left-0 w-full bg-white shadow-lg flex flex-col p-6 space-y-4 text-black border-t"
+      class="md:hidden absolute top-full left-0 w-full bg-white shadow-lg flex flex-col p-6 space-y-4 text-black border-t border-yellow-100"
     >
       <router-link
         to="/"
