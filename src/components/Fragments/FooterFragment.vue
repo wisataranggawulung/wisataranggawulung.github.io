@@ -19,7 +19,7 @@ import logo_institusi from "../../assets/images/logo_institusi.png";
       <!-- Brand / Slogan -->
       <div class="text-center md:text-left space-y-2">
         <h4 class="text-2xl font-normal font-google-dynapuff text-slate-50">
-          Wisata Ranggawulung
+          Wisata Alam Ranggawulung
         </h4>
         <p class="text-sm text-white/60 max-w-sm">
           Pengalaman wisata alam terbaik di Lebak, Banten untuk keluarga dan
@@ -30,10 +30,10 @@ import logo_institusi from "../../assets/images/logo_institusi.png";
       <!-- Links and Copyright -->
       <div class="flex flex-col items-center md:items-end gap-4">
         <div class="flex flex-wrap justify-center gap-6 font-medium text-sm">
-          <a href="#" class="hover:text-yellow-500 transition-colors"
-            >Facebook</a
-          >
-          <a href="#" class="hover:text-yellow-500 transition-colors"
+          <a
+            href="https://www.instagram.com/ranggawulungwisataalam/"
+            target="_blank"
+            class="hover:text-yellow-500 transition-colors"
             >Instagram</a
           >
           <a
@@ -42,11 +42,16 @@ import logo_institusi from "../../assets/images/logo_institusi.png";
             class="hover:text-yellow-500 transition-colors"
             >WhatsApp</a
           >
-          <a href="#" class="hover:text-yellow-500 transition-colors">Lokasi</a>
+          <a
+            href="https://maps.app.goo.gl/7kbap5zoJ7MNmCbFA"
+            target="_blank"
+            class="hover:text-yellow-500 transition-colors"
+            >Lokasi</a
+          >
         </div>
         <p class="text-xs text-center font-google-inter text-white/50">
-          &copy; {{ new Date().getFullYear() }} Bumdes Ranggawulung Curugbitung.
-          All rights reserved.
+          &copy; {{ new Date().getFullYear() }} Bumdes Ranggawulung
+          Curugbitung<br />Rangkasbitung - Banten
         </p>
       </div>
     </div>

@@ -63,7 +63,7 @@ onUnmounted(() => {
         <h1
           class="text-3xl sm:text-4xl md:text-6xl font-normal mb-4 font-google-dynapuff"
         >
-          Wisata Rangga Wulung
+          Wisata Alam Ranggawulung
         </h1>
         <p
           class="text-sm sm:text-base md:text-xl max-w-2xl mx-auto leading-relaxed"

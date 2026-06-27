@@ -42,7 +42,7 @@ const campingPackages = [
       <h2
         class="text-2xl sm:text-3xl md:text-5xl font-normal font-google-dynapuff text-[#13381a] text-center md:text-left mb-8 md:mb-12"
       >
-        Ayo ke Ranggawulung ....
+        Ayo ke Wisata Alam <br />Ranggawulung ....
       </h2>
       <div class="flex flex-col md:flex-row gap-8 md:gap-12 items-center">
         <div class="flex-1 space-y-4 text-center md:text-left">
@@ -213,11 +213,13 @@ const campingPackages = [
           </div>
 
           <div class="pt-4">
-            <button
-              class="bg-white cursor-pointer active:scale-95 text-[#13381a] hover:bg-yellow-600 hover:text-white transition-colors duration-300 font-bold py-3 px-8 rounded-xl shadow-lg"
+            <a
+              href="https://wa.me/6287878798241?text=Halo%20saya%20tertarik%20untuk%20bertanya%20paket%20villa"
+              target="_blank"
+              class="block text-center bg-white cursor-pointer active:scale-95 text-[#13381a] hover:bg-yellow-600 hover:text-white transition-colors duration-300 font-bold py-3 px-8 rounded-xl shadow-lg"
             >
               Booking Villa Sekarang
-            </button>
+            </a>
           </div>
         </div>
 
@@ -316,11 +318,13 @@ const campingPackages = [
             </ul>
           </div>
 
-          <button
-            class="w-full bg-[#13381a] hover:bg-amber-600 transition-all text-white font-bold py-3.5 px-6 rounded-2xl cursor-pointer active:scale-[0.98]"
+          <a
+            :href="`https://wa.me/6287878798241?text=Halo%20saya%20tertarik%20untuk%20bertanya%20${encodeURIComponent(pkg.name)}`"
+            target="_blank"
+            class="block w-full text-center bg-[#13381a] hover:bg-amber-600 transition-all text-white font-bold py-3.5 px-6 rounded-2xl cursor-pointer active:scale-[0.98]"
           >
             Pilih Paket Ini
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -406,14 +410,16 @@ const campingPackages = [
 
           <!-- Social media icons in green circle -->
           <a
-            href="#"
+            href="https://maps.app.goo.gl/7kbap5zoJ7MNmCbFA"
+            target="_blank"
             class="w-12 h-12 rounded-2xl bg-white/15 hover:bg-white/25 transition-all flex items-center justify-center text-white"
-            aria-label="Facebook"
+            aria-label="Lokasi"
           >
-            <v-icon name="fa-facebook" class="w-6 h-6" />
+            <v-icon name="fa-map-marker-alt" class="w-6 h-6" />
           </a>
           <a
-            href="#"
+            href="https://www.instagram.com/ranggawulungwisataalam/"
+            target="_blank"
             class="w-12 h-12 rounded-2xl bg-white/15 hover:bg-white/25 transition-all flex items-center justify-center text-white"
             aria-label="Instagram"
           >
@@ -422,7 +428,7 @@ const campingPackages = [
         </div>
 
         <p class="text-xs text-white/50 pt-2">
-          Cari info lebih lanjut klik di sosial media (Wisata Ranggawulung)
+          Cari info lebih lanjut klik di sosial media (Wisata Alam Ranggawulung)
         </p>
       </div>
     </div>

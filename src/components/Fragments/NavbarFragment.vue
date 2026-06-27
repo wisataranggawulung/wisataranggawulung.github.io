@@ -45,7 +45,7 @@ onUnmounted(() => {
         <span
           :class="isScrolled || isMenuOpen ? 'text-yellow-600' : 'text-white'"
           class="text-sm sm:text-base md:text-xl font-google-dynapuff"
-          >Wisata Ranggawulung</span
+          >Wisata Alam Ranggawulung</span
         >
       </div>
 
@@ -57,22 +57,11 @@ onUnmounted(() => {
           exact-active-class="border-yellow-500 text-yellow-500"
           >Home</router-link
         >
-        <router-link
-          to="/about"
-          class="hover:opacity-70 pb-1 border-b-2 border-transparent transition-all"
-          exact-active-class="border-yellow-500 text-yellow-500"
-          >About</router-link
-        >
-        <a
+        <!-- <a
           href="#"
           class="hover:opacity-70 pb-1 border-b-2 border-transparent transition-all"
-          >Gallery</a
-        >
-        <a
-          href="#"
-          class="hover:opacity-70 pb-1 border-b-2 border-transparent transition-all"
-          >Contact</a
-        >
+          >Tentang</a
+        > -->
       </div>
 
       <!-- Mobile Menu Button -->
@@ -113,24 +102,12 @@ onUnmounted(() => {
         class="hover:text-green-600 font-medium"
         >Home</router-link
       >
-      <router-link
-        to="/about"
-        @click="isMenuOpen = false"
-        class="hover:text-green-600 font-medium"
-        >About</router-link
-      >
-      <a
+      <!-- <a
         href="#"
         @click="isMenuOpen = false"
         class="hover:text-green-600 font-medium"
-        >Gallery</a
-      >
-      <a
-        href="#"
-        @click="isMenuOpen = false"
-        class="hover:text-green-600 font-medium"
-        >Contact</a
-      >
+        >Tentang</a
+      > -->
     </div>
   </nav>
 </template>
